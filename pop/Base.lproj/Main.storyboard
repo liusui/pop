@@ -70,7 +70,7 @@
             </objects>
             <point key="canvasLocation" x="-1273" y="229"/>
         </scene>
-        <!--Button View Controller-->
+        <!--btton-->
         <scene sceneID="Y7s-Sq-BcW">
             <objects>
                 <viewController id="jfv-iL-MPm" customClass="ButtonViewController" sceneMemberID="viewController">
@@ -115,7 +115,7 @@
                             <constraint firstAttribute="centerX" secondItem="EzG-wl-tqH" secondAttribute="centerX" id="eod-P2-n6I"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="R9i-4H-yas"/>
+                    <navigationItem key="navigationItem" title="btton" id="R9i-4H-yas"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="errorLabel" destination="U0u-bA-XGx" id="PQ4-LQ-g20"/>
