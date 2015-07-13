@@ -30,8 +30,16 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *identifier=@"popcell";
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:identifier];
-    cell.textLabel.text=@"12345";
+    cell.textLabel.font = [UIFont fontWithName:@"Avenir-Light" size:20];
+    cell.textLabel.text=@"按钮";
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row==0) {
+        [self performSegueWithIdentifier:@"goto:button" sender:self];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

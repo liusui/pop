@@ -14,6 +14,7 @@
 		41DC125A1B5394C50023A458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DC12591B5394C50023A458 /* Images.xcassets */; };
 		41DC125D1B5394C60023A458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41DC125B1B5394C60023A458 /* LaunchScreen.xib */; };
 		41DC12691B5394C60023A458 /* popTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12681B5394C60023A458 /* popTests.m */; };
+		41DC12741B53B1880023A458 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12731B53B1880023A458 /* ButtonViewController.m */; };
 		9BAB0C650135801B9CE4A049 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 954FD5CB497BDADCDCBFF058 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		41DC12621B5394C60023A458 /* popTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DC12671B5394C60023A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DC12681B5394C60023A458 /* popTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popTests.m; sourceTree = "<group>"; };
+		41DC12721B53B1880023A458 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		41DC12731B53B1880023A458 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		71273C096FFCD94EA8322949 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		954FD5CB497BDADCDCBFF058 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EAD884F5108D2E6562C7F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				41DC12511B5394C50023A458 /* AppDelegate.m */,
 				41DC12531B5394C50023A458 /* ViewController.h */,
 				41DC12541B5394C50023A458 /* ViewController.m */,
+				41DC12721B53B1880023A458 /* ButtonViewController.h */,
+				41DC12731B53B1880023A458 /* ButtonViewController.m */,
 				41DC12561B5394C50023A458 /* Main.storyboard */,
 				41DC12591B5394C50023A458 /* Images.xcassets */,
 				41DC125B1B5394C60023A458 /* LaunchScreen.xib */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DC12741B53B1880023A458 /* ButtonViewController.m in Sources */,
 				41DC12551B5394C50023A458 /* ViewController.m in Sources */,
 				41DC12521B5394C50023A458 /* AppDelegate.m in Sources */,
 				41DC124F1B5394C50023A458 /* main.m in Sources */,
