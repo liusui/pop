@@ -26,6 +26,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)changeSize:(UITapGestureRecognizer *)sender {
     POPSpringAnimation *animation=[POPSpringAnimation animationWithPropertyNamed:kPOPLayerSize];
     if (self.headImgaeView.frame.size.width==100) {

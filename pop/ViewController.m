@@ -45,6 +45,9 @@
         case 1:
             [self performSegueWithIdentifier:@"goto:imageVC" sender:self];
             break;
+        case 2:
+            [self performSegueWithIdentifier:@"goto:alertVC" sender:self];
+            break;
         default:
             break;
     }
