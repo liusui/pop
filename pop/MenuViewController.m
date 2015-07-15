@@ -26,7 +26,7 @@
     // Do any additional setup after loading the view.
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"+" style:UIBarButtonItemStyleDone target:self action:@selector(showPop)];
     _isOpen=NO;
-    _hidePosition=CGRectMake(320, 64, 0, 0);
+    _hidePosition=CGRectMake(320-15, 64, 0, 0);
     _showPostion=CGRectMake(251, 64, 69, 181);
 }
 
