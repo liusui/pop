@@ -10,6 +10,7 @@
 		41C321C31B56324100C5B5AB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C321C21B56324100C5B5AB /* ImageViewController.m */; };
 		41C321C71B56478200C5B5AB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41C321C61B56478200C5B5AB /* 1.jpg */; };
 		41C321CA1B564D7A00C5B5AB /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C321C91B564D7A00C5B5AB /* AlertViewController.m */; };
+		41C322031B565E0900C5B5AB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C322021B565E0900C5B5AB /* MenuViewController.m */; };
 		41DC124F1B5394C50023A458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC124E1B5394C50023A458 /* main.m */; };
 		41DC12521B5394C50023A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12511B5394C50023A458 /* AppDelegate.m */; };
 		41DC12551B5394C50023A458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12541B5394C50023A458 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 		41C321C61B56478200C5B5AB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		41C321C81B564D7A00C5B5AB /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		41C321C91B564D7A00C5B5AB /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		41C322011B565E0900C5B5AB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		41C322021B565E0900C5B5AB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		41DC12491B5394C50023A458 /* pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DC124D1B5394C50023A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DC124E1B5394C50023A458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				41C321C21B56324100C5B5AB /* ImageViewController.m */,
 				41C321C81B564D7A00C5B5AB /* AlertViewController.h */,
 				41C321C91B564D7A00C5B5AB /* AlertViewController.m */,
+				41C322011B565E0900C5B5AB /* MenuViewController.h */,
+				41C322021B565E0900C5B5AB /* MenuViewController.m */,
 				41C321C61B56478200C5B5AB /* 1.jpg */,
 				41DC12561B5394C50023A458 /* Main.storyboard */,
 				41DC12591B5394C50023A458 /* Images.xcassets */,
@@ -301,6 +306,7 @@
 				41DC12741B53B1880023A458 /* ButtonViewController.m in Sources */,
 				41DC12551B5394C50023A458 /* ViewController.m in Sources */,
 				41DC12521B5394C50023A458 /* AppDelegate.m in Sources */,
+				41C322031B565E0900C5B5AB /* MenuViewController.m in Sources */,
 				41DC124F1B5394C50023A458 /* main.m in Sources */,
 				41C321CA1B564D7A00C5B5AB /* AlertViewController.m in Sources */,
 			);

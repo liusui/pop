@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.titleArray=@[@"按钮",@"图片",@"弹框"];
+    self.titleArray=@[@"按钮",@"图片",@"弹框",@"菜单"];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -47,6 +47,9 @@
             break;
         case 2:
             [self performSegueWithIdentifier:@"goto:alertVC" sender:self];
+            break;
+        case 3:
+            [self performSegueWithIdentifier:@"goto:menuVC" sender:self];
             break;
         default:
             break;
