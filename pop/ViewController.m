@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)NSArray *titleArray;
 @end
 
 @implementation ViewController
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.titleArray=@[@"按钮",@"图片",@"弹框"];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -24,22 +25,30 @@
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return [self.titleArray count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *identifier=@"popcell";
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:identifier];
     cell.textLabel.font = [UIFont fontWithName:@"Avenir-Light" size:20];
-    cell.textLabel.text=@"按钮";
+    cell.textLabel.text=[self.titleArray objectAtIndex:indexPath.row];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row==0) {
-        [self performSegueWithIdentifier:@"goto:button" sender:self];
+    switch (indexPath.row) {
+        case 0:
+            [self performSegueWithIdentifier:@"goto:button" sender:self];
+            break;
+        case 1:
+            [self performSegueWithIdentifier:@"goto:imageVC" sender:self];
+            break;
+        default:
+            break;
     }
+        
 }
 
 - (void)didReceiveMemoryWarning {

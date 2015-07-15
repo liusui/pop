@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C321C31B56324100C5B5AB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C321C21B56324100C5B5AB /* ImageViewController.m */; };
+		41C321C71B56478200C5B5AB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41C321C61B56478200C5B5AB /* 1.jpg */; };
 		41DC124F1B5394C50023A458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC124E1B5394C50023A458 /* main.m */; };
 		41DC12521B5394C50023A458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12511B5394C50023A458 /* AppDelegate.m */; };
 		41DC12551B5394C50023A458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DC12541B5394C50023A458 /* ViewController.m */; };
@@ -29,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41C321C11B56324100C5B5AB /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		41C321C21B56324100C5B5AB /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		41C321C61B56478200C5B5AB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		41DC12491B5394C50023A458 /* pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DC124D1B5394C50023A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DC124E1B5394C50023A458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 				41DC12541B5394C50023A458 /* ViewController.m */,
 				41DC12721B53B1880023A458 /* ButtonViewController.h */,
 				41DC12731B53B1880023A458 /* ButtonViewController.m */,
+				41C321C11B56324100C5B5AB /* ImageViewController.h */,
+				41C321C21B56324100C5B5AB /* ImageViewController.m */,
+				41C321C61B56478200C5B5AB /* 1.jpg */,
 				41DC12561B5394C50023A458 /* Main.storyboard */,
 				41DC12591B5394C50023A458 /* Images.xcassets */,
 				41DC125B1B5394C60023A458 /* LaunchScreen.xib */,
@@ -231,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DC12581B5394C50023A458 /* Main.storyboard in Resources */,
+				41C321C71B56478200C5B5AB /* 1.jpg in Resources */,
 				41DC125D1B5394C60023A458 /* LaunchScreen.xib in Resources */,
 				41DC125A1B5394C50023A458 /* Images.xcassets in Resources */,
 			);
@@ -283,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C321C31B56324100C5B5AB /* ImageViewController.m in Sources */,
 				41DC12741B53B1880023A458 /* ButtonViewController.m in Sources */,
 				41DC12551B5394C50023A458 /* ViewController.m in Sources */,
 				41DC12521B5394C50023A458 /* AppDelegate.m in Sources */,
